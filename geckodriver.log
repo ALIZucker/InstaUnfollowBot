@@ -1,0 +1,46 @@
+1693741973032	geckodriver	INFO	Listening on 127.0.0.1:13592
+1693741976049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13593" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Feedback\\AppData\\Local\\Temp\\rust_mozprofilerdJwRZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693741977446	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693741977666	Marionette	INFO	Listening on port 13601
+WebDriver BiDi listening on ws://127.0.0.1:13593
+Read port: 13601
+1693741978193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:13593/devtools/browser/06cbe9ee-a619-4350-863a-1cb6b07c829a
+1693741985457	Marionette	INFO	Stopped listening on port 13601
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1693741985600	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:215
+deleteSession()@WebDriverBiDi.sys.mjs:140
+stop()@WebDriverBiDi.sys.mjs:228
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:573
+1693742001866	geckodriver	INFO	Listening on 127.0.0.1:13629
+1693742004874	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13630" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Feedback\\AppData\\Local\\Temp\\rust_mozprofileeVgshw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693742005411	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693742005532	Marionette	INFO	Listening on port 13637
+WebDriver BiDi listening on ws://127.0.0.1:13630
+Read port: 13637
+1693742006070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:13630/devtools/browser/fe5299a1-cb98-41b7-8c4d-9e9b71155495
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i0fJ4/yz/l/en_US/daYhQoOQSiC.js?_nc_x=Ij3Wp8lg5Kz, line 121: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i0fJ4/yC/l/makehaste_jhash/daYhQoOQSiC.js?_nc_x=Ij3Wp8lg5Kz, line 121: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9Ja4/y7/l/makehaste_jhash/-lUTFO0nqO1.js?_nc_x=Ij3Wp8lg5Kz, line 215: Script terminated by timeout at:
+k@https://static.cdninstagram.com/rsrc.php/v3i9Ja4/y7/l/makehaste_jhash/-lUTFO0nqO1.js?_nc_x=Ij3Wp8lg5Kz:215:479
+b@https://static.cdninstagram.com/rsrc.php/v3i9Ja4/y7/l/makehaste_jhash/-lUTFO0nqO1.js?_nc_x=Ij3Wp8lg5Kz:215:798
+incr@https://static.cdninstagram.com/rsrc.php/v3i0fJ4/yC/l/makehaste_jhash/daYhQoOQSiC.js?_nc_x=Ij3Wp8lg5Kz:118:234
+incr_CAREFUL_WHEN_USE_DYNAMIC_KEY@https://static.cdninstagram.com/rsrc.php/v3i0fJ4/yC/l/makehaste_jhash/daYhQoOQSiC.js?_nc_x=Ij3Wp8lg5Kz:118:367
+incr_CAREFUL_WHEN_USE_DYNAMIC_KEY/<@https://static.cdninstagram.com/rsrc.php/v3i9Ja4/y7/l/makehaste_jhash/-lUTFO0nqO1.js?_nc_x=Ij3Wp8lg5Kz:897:426
+
+1693742068356	Marionette	INFO	Stopped listening on port 13637
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
